@@ -423,7 +423,6 @@ public class Aeroporto {
         }
 
         System.out.println(
-                "Emergências: " + emergencias
-        )
+                "Emergências: " + emergencias);
     }
 }
