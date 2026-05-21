@@ -12,6 +12,6 @@ public class Main {
         Aeroporto aeroporto =
                 new Aeroporto();
 
-        aeroporto.simular(3);
+        aeroporto.simular(2);
     }
 }

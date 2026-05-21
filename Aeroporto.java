@@ -69,7 +69,7 @@ public class Aeroporto {
         }
     }
 
-        //Teste FIFO
+      /*   //Teste FIFO --------------------------------------
         private void gerarAvioes() {
 
     filaPouso1.adicionar(
@@ -80,14 +80,10 @@ public class Aeroporto {
 
     filaPouso1.adicionar(
             new Aviao(5, 5, true));
-}
+}*/
 
 
-
-
-
-
-// Teste Controlado
+// Teste Controlado---------------------------
 //     private void gerarAvioes() {
 
 //     Aviao a1 =
@@ -101,8 +97,35 @@ public class Aeroporto {
 //     filaDecolagem1.adicionar(d1);
 // }
 
-    //---------------------------------------------------------
 
+    //teste emergencias multiplas --------------------------------------
+    /*private void gerarAvioes() {
+
+    filaPouso1.adicionar(
+            new Aviao(1, 0, true));
+
+    filaPouso2.adicionar(
+            new Aviao(3, 0, true));
+
+    filaPouso3.adicionar(
+            new Aviao(5, 0, true));
+    }*/
+    
+     //Teste 8 — Tempo médio de espera--------------------------------------
+    /* 
+   private void gerarAvioes() {
+
+        if (idPouso == 1) {
+
+            filaPouso1.adicionar(
+                    new Aviao(1, 5, true));
+
+            filaPouso1.adicionar(
+                    new Aviao(3, 5, true));
+        }
+    }*/
+   
+    // PADRÃO  ---------------------------------------------------------
     // private void gerarAvioes() {
 
     //     int qtdPousos = random.nextInt(4);
